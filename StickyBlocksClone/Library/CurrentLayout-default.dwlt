@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 109
+  controlID: 138
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 114
+  controlID: 37
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -314,9 +314,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.1738635, y: 1.4618003, z: 4.436559}
+    m_Target: {x: 3.1651402, y: -11.403901, z: -2.30055}
     speed: 2
-    m_Value: {x: 1.1738635, y: 1.4618003, z: 4.436559}
+    m_Value: {x: 3.1651402, y: -11.403901, z: -2.30055}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -365,11 +365,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.22137652, y: 0.09896673, z: -0.02259667, w: 0.96992373}
     speed: 2
-    m_Value: {x: 0.22136937, y: 0.09896354, z: -0.02259594, w: 0.9698924}
+    m_Value: {x: -0.22137651, y: -0.09896673, z: 0.022596668, w: -0.9699237}
   m_Size:
-    m_Target: 4.063303
+    m_Target: 21.015015
     speed: 2
-    m_Value: 4.063303
+    m_Value: 22.00525
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -515,7 +515,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: fc88feff9092feffe09bfeff84a5feffbaaefeffcec2feff3420ffff8ac0ffffa2c0ffffbac4ffffd0c6fffff8b4000010b5000064b5000068b5000026e500007ee50000f6fe00000eff000064ff000068ff0000aa06010000070100
+      m_ExpandedIDs: 22a2ffff6aaaffff72aaffffa0b2ffffd0bfffff7ecbffffb6d4ffff2cdeffff8ae7ffffc0f0ffff54fbffff346e00003e6e0000a66e00007a720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -578,36 +578,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Katarina\Documents\GitHub\Magnetic-balls\StickyBlocksClone
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d4b80000
-    m_LastClickedID: 47316
-    m_ExpandedIDs: 00000000b4b80000b6b80000b8b80000bab80000bcb80000beb80000c0b80000c2b80000c4b80000c6b80000c8b80000cab80000ccb80000ceb80000d0b80000d2b80000d4b8000000ca9a3b
+    m_SelectedIDs: ba580000
+    m_LastClickedID: 22714
+    m_ExpandedIDs: 00000000225800002458000026580000285800002a5800002c5800002e58000030580000325800003458000036580000385800003a5800003c5800003e580000405800004258000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scripts
-      m_OriginalName: Scripts
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 47338
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -621,7 +621,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b4b80000b6b80000b8b80000bab80000bcb80000beb80000c0b80000c2b80000c4b80000c6b80000c8b80000cab80000ccb80000ceb80000d0b80000d2b80000d4b80000
+    m_ExpandedIDs: 00000000225800002458000026580000285800002a5800002c5800002e58000030580000325800003458000036580000385800003a5800003c5800003e5800004058000042580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
