@@ -16,8 +16,10 @@ public class UIHandler : MonoBehaviour
     void Start()
     {
         maxDistance = getDistance();
-        ScriptInfrastructure.instance.startLevelText.text = ScriptInfrastructure.instance.levelCounter.ToString();
-        ScriptInfrastructure.instance.nextLevelText.text = (ScriptInfrastructure.instance.levelCounter + 1).ToString();
+        ScriptInfrastructure.instance.startLevelText.text = ScriptInfrastructure.levelCounter.ToString();
+        ScriptInfrastructure.instance.nextLevelText.text = (ScriptInfrastructure.levelCounter + 1).ToString();
+
+        ScriptInfrastructure.levelCounter++;
     }
 
 

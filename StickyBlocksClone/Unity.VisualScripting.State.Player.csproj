@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.11</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.15</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2021.1.21f1</UnityVersion>
@@ -623,17 +623,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{FDF28C8F-D5E4-E731-79F5-D0F42841A92C}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
+    <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
+      <Project>{B79964D1-0C8A-B2FA-6AD5-1F7D6AD0CAD3}</Project>
+      <Name>Unity.VisualScripting.Core.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{395B6E2C-F031-730A-05F5-6AB967D15419}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
+      <Project>{F2E58837-532E-6E19-285F-BED0CC58537E}</Project>
+      <Name>Unity.VisualScripting.Flow.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{3D72B8F8-F557-7625-3005-8DCA7E7786B9}</Project>
-      <Name>UnityEngine.UI</Name>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{2292AD5B-7AA0-C708-87BF-408C82242E53}</Project>
+      <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

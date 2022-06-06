@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.11</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.15</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2021.1.21f1</UnityVersion>
@@ -629,17 +629,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="MoreMountains.NiceVibrations.csproj">
-      <Project>{7EF4054D-274B-1666-BD09-B149DC01DFA1}</Project>
-      <Name>MoreMountains.NiceVibrations</Name>
+    <ProjectReference Include="MoreMountains.NiceVibrations.Player.csproj">
+      <Project>{5C51B79B-563F-6EDD-2FD8-5318BB1FC929}</Project>
+      <Name>MoreMountains.NiceVibrations.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="MoreMountains.NiceVibrations.Haptics.csproj">
-      <Project>{014E6DDB-5871-FA39-9C78-DE9508C5CD34}</Project>
-      <Name>MoreMountains.NiceVibrations.Haptics</Name>
+    <ProjectReference Include="MoreMountains.NiceVibrations.Haptics.Player.csproj">
+      <Project>{2B18E971-6499-5DE6-9B2F-33F35052592F}</Project>
+      <Name>MoreMountains.NiceVibrations.Haptics.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{3D72B8F8-F557-7625-3005-8DCA7E7786B9}</Project>
-      <Name>UnityEngine.UI</Name>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{2292AD5B-7AA0-C708-87BF-408C82242E53}</Project>
+      <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -37,7 +37,7 @@ public class CollectedObjController : MonoBehaviour
 
         if (other.gameObject.CompareTag("CollectibleObj"))
         {
-            MMVibrationManager.Haptic(HapticTypes.Success);
+            MMVibrationManager.Haptic(HapticTypes.Selection);
 
             //playerManager.gameObject.GetComponent<AudioSource>().Play();
             if (!playerManager.collidedList.Contains(other.gameObject))
@@ -91,9 +91,10 @@ public class CollectedObjController : MonoBehaviour
 
         yield return new WaitForSeconds(1);
 
-        MMVibrationManager.Haptic(HapticTypes.MediumImpact);
+        MMVibrationManager.Haptic(HapticTypes.Selection);
         Destroy(gameObject);
         Transform partcile = Instantiate(playerManager.partcilePrefab, transform.position, Quaternion.identity);
+        ScriptInfrastructure.instance.particleSystems.Add(partcile.GetComponent<ParticleSystem>());
         partcile.GetComponent<ParticleSystem>().startColor = playerManager.collectedObjMat.color;
 
     }
@@ -154,7 +155,7 @@ public class CollectedObjController : MonoBehaviour
     private IEnumerator FinishState()
     {
 
-        //play sound
+
         yield return new WaitForSeconds(1.4f);
 
         if (SceneManager.GetActiveScene().buildIndex + 1 != 4)

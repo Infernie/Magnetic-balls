@@ -1,17 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class ScriptInfrastructure : MonoBehaviour
 {
     public static ScriptInfrastructure instance;
-    public int levelCounter = 1;
+    public static int levelCounter = 1;
     bool isTouchedFirstTime = false;
+    public List<ParticleSystem> particleSystems = new List<ParticleSystem>();
 
     private void Awake()
     {
         instance = this;
+
     }
 
     #region Scripts
@@ -50,6 +53,8 @@ public class ScriptInfrastructure : MonoBehaviour
 
                 isTouchedFirstTime = true;
             }
-        }
+        }    
     }
+
+   
 }
