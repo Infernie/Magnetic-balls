@@ -8,7 +8,7 @@ public class FirstPlayer : MonoBehaviour
 
     private Rigidbody rb;
 
-    [SerializeField]bool isGrounded;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +26,7 @@ public class FirstPlayer : MonoBehaviour
         }
     }
     void Grounded() {
-        isGrounded=true;
+        
         playerManager.playerState = PlayerManager.PlayerState.Move;
         rb.useGravity=false;
         rb.constraints=RigidbodyConstraints.FreezeAll;

@@ -16,6 +16,8 @@ public class UIHandler : MonoBehaviour
     void Start()
     {
         maxDistance = getDistance();
+        ScriptInfrastructure.instance.startLevelText.text = ScriptInfrastructure.instance.levelCounter.ToString();
+        ScriptInfrastructure.instance.nextLevelText.text = (ScriptInfrastructure.instance.levelCounter + 1).ToString();
     }
 
 
@@ -37,13 +39,7 @@ public class UIHandler : MonoBehaviour
     void SetProgress(float progressAdder)
     {
         slider.value = progressAdder;
-        //    slider.minValue = 0;
-        //    slider.maxValue = 1000;
-        //    slider.value = progressAdder;
-        //    if (slider.value == slider.maxValue)
-        //    {
-        //        Debug.Log("POG");
-        //    }
+
     }
 
 }

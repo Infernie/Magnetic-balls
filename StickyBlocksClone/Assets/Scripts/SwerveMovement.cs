@@ -6,6 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(SwerveInputSystem))]
 public class SwerveMovement : MonoBehaviour
 {
+    public static SwerveMovement swerve;
 
     private SwerveInputSystem _swerveInputSystem;
     public float zSpeed;
@@ -14,7 +15,7 @@ public class SwerveMovement : MonoBehaviour
     
     private void Awake()
     {
-
+        swerve = this;
         _swerveInputSystem = GetComponent<SwerveInputSystem>();
     }
 

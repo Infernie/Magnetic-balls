@@ -7,7 +7,7 @@ using MoreMountains.NiceVibrations;
 public class CollectedObjController : MonoBehaviour
 {
     PlayerManager playerManager;
-    public SwerveMovement swerveMovement;
+
 
     [SerializeField] Transform sphere;
     // Start is called before the first frame update
@@ -16,21 +16,21 @@ public class CollectedObjController : MonoBehaviour
         playerManager = GameObject.FindGameObjectWithTag("PlayerManager").GetComponent<PlayerManager>();
 
         sphere = transform.GetChild(0);
-     
+
         if (GetComponent<Rigidbody>() == null)
         {
             gameObject.AddComponent<Rigidbody>();
-     
+
             Rigidbody rb = GetComponent<Rigidbody>();
-     
+
             rb.useGravity = false;
             rb.constraints = RigidbodyConstraints.FreezeAll;
-     
+
             // GetComponent<Renderer>().material = playerManager.collectedObjMat;
         }
     }
 
-  
+
 
     private void OnCollisionEnter(Collision other)
     {
@@ -56,9 +56,9 @@ public class CollectedObjController : MonoBehaviour
 
         if (other.gameObject.CompareTag("MultiplierLine"))
         {
-            swerveMovement.swerveSpeed = 0;
+            SwerveMovement.swerve.swerveSpeed = 0;
             //StartCoroutine(ExplodeTheObjectTwo());
-            
+
         }
 
     }
